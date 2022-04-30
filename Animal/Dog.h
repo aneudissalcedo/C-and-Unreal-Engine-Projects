@@ -13,10 +13,10 @@ private:
 
 public:
 	//Get the value of variables
-	string GetBreed() { return breed; }
-	string GetColor() { return color; }
-	double GetHeight() { return height; }
-	double GetWeight() { return weight; }
+	string GetBreed();
+	string GetColor();
+	double GetHeight();
+	double GetWeight();
 
 	//Set value to variables
 	string SetBreed(string value);

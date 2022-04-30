@@ -4,6 +4,23 @@
 using std::cout;
 using std::endl;
 
+string Dog::GetBreed()
+{
+	return breed;
+}
+string Dog::GetColor()
+{
+	return color;
+}
+double Dog::GetHeight()
+{
+	return height;
+}
+double Dog::GetWeight()
+{
+	return weight;
+}
+
 string Dog::SetBreed(string value)
 {
 	breed = value;
